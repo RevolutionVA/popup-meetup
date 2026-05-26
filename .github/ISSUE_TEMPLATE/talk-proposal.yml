@@ -1,0 +1,137 @@
+name: Talk Proposal
+description: Submit a talk idea for a Pop-up Meetup
+title: "[TALK] "
+labels: ["needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a talk proposal! Fill out the details below and the RevolutionVA team will review your submission within 7 days. First-time speakers are welcome and encouraged.
+
+  - type: input
+    id: title
+    attributes:
+      label: Talk Title
+      description: A clear, descriptive title for your talk.
+      placeholder: "e.g., Building AI Agents with Claude: A Practical Intro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: A 2-4 sentence description of what attendees will learn. This is what gets listed on Meetup and 757tech.org.
+      placeholder: "This talk covers..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: What kind of session are you proposing?
+      options:
+        - Presentation (30 min)
+        - Presentation (45-60 min)
+        - Lightning Talk (5-10 min)
+        - Workshop / Hands-on (60-90 min)
+        - Panel Discussion
+        - Other (describe in notes)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Audience Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - All levels
+    validations:
+      required: true
+
+  - type: input
+    id: speaker_name
+    attributes:
+      label: Your Name
+    validations:
+      required: true
+
+  - type: input
+    id: speaker_bio
+    attributes:
+      label: Brief Bio
+      description: 1-2 sentences. This is what gets used in event announcements.
+      placeholder: "e.g., Software engineer at Acme Corp, with a focus on cloud infrastructure. First-time speaker."
+    validations:
+      required: true
+
+  - type: input
+    id: speaker_contact
+    attributes:
+      label: Contact Email
+      description: We'll use this to coordinate scheduling. Not published publicly.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location_preference
+    attributes:
+      label: Preferred Area
+      description: Where in Hampton Roads would you prefer to present?
+      options:
+        - Norfolk
+        - Virginia Beach
+        - Chesapeake
+        - Hampton
+        - Newport News
+        - Suffolk
+        - Williamsburg
+        - No preference
+        - Multiple / flexible
+    validations:
+      required: true
+
+  - type: textarea
+    id: av_needs
+    attributes:
+      label: AV and Technical Needs
+      description: What do you need to deliver this talk?
+      placeholder: |
+        - Projector / screen: yes/no
+        - Laptop: bringing my own / need one provided
+        - Internet connection required: yes/no
+        - Other: ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: timing
+    attributes:
+      label: Availability
+      description: When could you give this talk?
+      options:
+        - Within the next 4 weeks
+        - Within the next 1-3 months
+        - Flexible / no rush
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything Else
+      description: Additional context, links to prior talks, slides, repos, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I have read and agree to the [RevolutionVA Code of Conduct](../../blob/main/CODE_OF_CONDUCT.md).
+          required: true
