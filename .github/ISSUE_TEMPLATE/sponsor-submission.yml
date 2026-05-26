@@ -1,0 +1,120 @@
+name: Sponsor Submission
+description: Offer to sponsor a Pop-up Meetup
+title: "[SPONSOR] "
+labels: ["sponsor-submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Interested in sponsoring a Pop-up Meetup? We appreciate the support! Sponsorships help cover things like venue costs, food and drinks, or supplies for hands-on workshops. Fill out the details below and we'll be in touch.
+
+  - type: input
+    id: sponsor_name
+    attributes:
+      label: Sponsor Name
+      description: Company name, organization, or your name if sponsoring as an individual.
+      placeholder: "e.g., Acme Corp"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sponsor_type
+    attributes:
+      label: Sponsor Type
+      options:
+        - Company
+        - Individual
+        - Organization / Nonprofit
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website or Social Link
+      description: Optional. Where can attendees learn more about you?
+      placeholder: "e.g., https://example.com"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: sponsorship_types
+    attributes:
+      label: What would you like to sponsor?
+      description: Select all that apply.
+      options:
+        - label: Food and drinks
+        - label: Venue costs
+        - label: Workshop supplies or materials
+        - label: Swag or giveaways
+        - label: General / flexible (apply where needed)
+
+  - type: input
+    id: budget
+    attributes:
+      label: Budget Range
+      description: Optional. Helps us match your sponsorship to the right events.
+      placeholder: "e.g., $50-100 per event"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often would you like to sponsor?
+      options:
+        - One-time
+        - Recurring (monthly)
+        - Recurring (quarterly)
+        - Ongoing / flexible
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location_preference
+    attributes:
+      label: Preferred Area
+      description: Do you have a preference for where you sponsor events?
+      options:
+        - Norfolk
+        - Virginia Beach
+        - Chesapeake
+        - Hampton
+        - Newport News
+        - Suffolk
+        - Williamsburg
+        - No preference
+        - Multiple / flexible
+    validations:
+      required: true
+
+  - type: input
+    id: contact_name
+    attributes:
+      label: Contact Name
+    validations:
+      required: true
+
+  - type: input
+    id: contact_email
+    attributes:
+      label: Contact Email
+      description: We'll use this to coordinate. Not published publicly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything Else
+      description: Specific events or topics you'd like to support, any branding guidelines we should know about, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: conduct
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I have read and agree to the [RevolutionVA Code of Conduct](../../blob/main/CODE_OF_CONDUCT.md).
+          required: true

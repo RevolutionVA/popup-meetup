@@ -1,4 +1,4 @@
-# RevolutionVA Pop-up Meetups
+# RevolutionVA Pop-up Meetup
 
 Pop-up Meetups is a RevolutionVA community initiative that brings developer talks to neighborhoods, coffee shops, libraries, coworking spaces, and other informal venues across Hampton Roads. If you have an idea worth sharing, we want to help you share it.
 
@@ -52,4 +52,4 @@ All Pop-up Meetup participants — speakers, attendees, and hosts — are requir
 
 ---
 
-*Pop-up Meetups is organized by [RevolutionVA](https://revolutionva.org), a 501(c)(3) nonprofit supporting developer education in Southeast Virginia.*
+*Pop-up Meetup is organized by [RevolutionVA](https://revolutionva.org), a 501(c)(3) nonprofit supporting developer education in Southeast Virginia.*
