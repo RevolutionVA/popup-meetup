@@ -39,7 +39,7 @@ popup-meetups/
 
 1. Speaker opens an issue using the **Talk Proposal** template.
 2. GitHub Actions posts an automatic acknowledgment comment.
-3. RevolutionVA team triages the issue (labels: `needs-review` → `in-review` → `approved` or `declined`).
+3. RevolutionVA team triages the issue (labels: `needs-review` → `in-review` → `approved`). Declined issues will be closed with comment.
 4. Approved talks are scheduled with a venue; label advances to `scheduled`.
 5. Event is listed on Meetup (757dev group) and 757tech.org.
 6. Issue is closed after the event occurs.

@@ -15,7 +15,7 @@ Anyone in the Hampton Roads tech community can propose a talk. Proposals go thro
 
 ### For Venues
 
-Want to host a Pop-up Meetup? Open an issue using the **Venue Submission** template. We're looking for spaces across all 757 cities — Norfolk, Virginia Beach, Chesapeake, Hampton, Newport News, Suffolk, and Williamsburg.
+Want to host a Pop-up Meetup? Open an issue using the **Venue Submission** template. We're looking for spaces across all 757 cities — Norfolk, Portsmouth, Virginia Beach, Chesapeake, Hampton, Newport News, Suffolk, and Williamsburg.
 
 ## Review Process
 
@@ -36,7 +36,6 @@ Labels used in the review process:
 | `approved` | Approved and being scheduled |
 | `scheduled` | Date and venue confirmed |
 | `changes-requested` | Feedback sent, waiting on speaker |
-| `declined` | Not a fit at this time |
 | `venue-submission` | Venue proposal (not a talk) |
 
 ## Code of Conduct

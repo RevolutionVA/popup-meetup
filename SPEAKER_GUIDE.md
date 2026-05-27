@@ -14,7 +14,9 @@ Congratulations on getting your Pop-up Meetup talk approved! Here's everything y
 - Event listing on Meetup and 757tech.org
 - Promotion through the 757 Tech Newsletter, Slack, and social media
 - Coordination with the venue
+- A volunteer to act as a facillitator the day of the event
 - A point of contact if anything comes up before or during the event
+- As needed, and as available, sponsorship for refreshments
 
 ## What You're Responsible For
 
