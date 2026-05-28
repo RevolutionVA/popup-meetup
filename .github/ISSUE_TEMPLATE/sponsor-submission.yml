@@ -6,16 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Interested in sponsoring a Pop-up Meetup? We appreciate the support! Sponsorships help cover things like venue costs, food and drinks, or supplies for hands-on workshops. Fill out the details below and we'll be in touch.
-
-  - type: input
-    id: sponsor_name
-    attributes:
-      label: Sponsor Name
-      description: Company name, organization, or your name if sponsoring as an individual.
-      placeholder: "e.g., Acme Corp"
-    validations:
-      required: true
+        Interested in sponsoring a Pop-up Meetup? We appreciate the support! Sponsorships help cover things like venue costs, food and drinks, or supplies for hands-on workshops. Put your company or name in the issue title above, then fill out the details below and we'll be in touch.
 
   - type: dropdown
     id: sponsor_type

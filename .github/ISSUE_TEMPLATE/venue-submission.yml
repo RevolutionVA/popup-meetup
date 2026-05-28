@@ -6,15 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Know a great space for a small tech meetup? We'd love to hear about it. Fill out the details below and we'll follow up.
-
-  - type: input
-    id: venue_name
-    attributes:
-      label: Venue Name
-      placeholder: "e.g., Norfolk Public Library - Slover Branch"
-    validations:
-      required: true
+        Know a great space for a small tech meetup? We'd love to hear about it. Put the venue name in the issue title above, then fill out the details below and we'll follow up.
 
   - type: input
     id: venue_address
