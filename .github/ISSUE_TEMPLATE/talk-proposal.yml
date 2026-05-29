@@ -6,16 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for submitting a talk proposal! Fill out the details below and the RevolutionVA team will review your submission within 7 days. First-time speakers are welcome and encouraged.
-
-  - type: input
-    id: title
-    attributes:
-      label: Talk Title
-      description: A clear, descriptive title for your talk.
-      placeholder: "e.g., Building AI Agents with Claude: A Practical Intro"
-    validations:
-      required: true
+        Thanks for submitting a talk proposal! Put your talk title in the issue title above, then fill out the details below. The RevolutionVA team will review your submission within 7 days. First-time speakers are welcome and encouraged.
 
   - type: textarea
     id: abstract
