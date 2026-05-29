@@ -19,9 +19,7 @@ jobs:
             let message = '';
 
             if (isTalk) {
-              message = `👋 Thanks for submitting a talk proposal! The RevolutionVA team will review your submission within 7 days and follow up here with any questions or next steps.
-
-In the meantime, feel free to join the conversation in the [757 Tech Slack](https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ) — a great place to connect with the community.`;
+              message = '👋 Thanks for submitting a talk proposal! The RevolutionVA team will review your submission within 7 days and follow up here with any questions or next steps.\n\nIn the meantime, feel free to join the conversation in the [757 Tech Slack](https://join.slack.com/t/757dev/shared_invite/zt-37d031yip-yI9z3ez8ezf~mJTy5ICaeQ) — a great place to connect with the community.';
             } else if (isVenue) {
               message = `👋 Thanks for the venue submission! We'll review the details and follow up within 7 days. If you have photos or additional info to share, feel free to add them as a comment.`;
             } else {
